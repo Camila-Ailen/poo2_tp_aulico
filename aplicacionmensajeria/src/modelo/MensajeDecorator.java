@@ -3,7 +3,7 @@ package modelo;
  * Clase abstracta que actúa como base para los decoradores de mensajes.
  * Extiende la funcionalidad de un objeto {@link Mensaje}.
  */
-abstract class MensajeDecorator {
+public abstract class MensajeDecorator implements Mensaje {
 
     /**
      * Objeto de tipo {@link Mensaje} que será modificado.
@@ -25,6 +25,7 @@ abstract class MensajeDecorator {
      *
      * @return El mensaje modificado como una cadena de texto.
      */
+    @Override
     public String enviar() {
         return mensaje.enviar();
     }

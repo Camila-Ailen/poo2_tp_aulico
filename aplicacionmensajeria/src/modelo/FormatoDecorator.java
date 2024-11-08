@@ -6,6 +6,7 @@ public class FormatoDecorator extends MensajeDecorator {
         super(mensaje);
     }
 
+    @Override
     public String enviar() {
         return "Formato(" + super.enviar() + ")";
     }

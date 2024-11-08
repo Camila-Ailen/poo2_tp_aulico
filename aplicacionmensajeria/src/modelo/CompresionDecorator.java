@@ -6,6 +6,7 @@ public class CompresionDecorator extends MensajeDecorator {
         super(mensaje);
     }
 
+    @Override
     public String enviar() { 
         return "Compresion(" + super.enviar() + ")";
     }
