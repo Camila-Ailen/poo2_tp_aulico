@@ -8,14 +8,7 @@ public class FormatoDecorator extends MensajeDecorator {
         super(mensaje);
     }
 
-    /**
-     * Env a el mensaje con formato.
-     * Este m todo sobreescribe el m todo {@code enviar()} de
-     * {@link MensajeDecorator}
-     * para a adir un mensaje que simula la aplicaci n de formato al mensaje.
-     * 
-     * @return El mensaje con formato como una cadena de texto.
-     */
+    @Override
     public String enviar() {
         return "Formato(" + super.enviar() + ")";
     }
