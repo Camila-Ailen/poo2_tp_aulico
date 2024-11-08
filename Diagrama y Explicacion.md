@@ -41,8 +41,8 @@ classDiagram
         +String enviar()
     }
 
-    EncriptadoDecorator --> MensajeDecorator
-    CompresionDecorator --> MensajeDecorator
-    FormatoDecorator --> MensajeDecorator
+    EncriptadoDecorator --|> MensajeDecorator
+    CompresionDecorator --|> MensajeDecorator
+    FormatoDecorator --|> MensajeDecorator
     
     ```
