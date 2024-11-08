@@ -1,13 +1,10 @@
 package modelo;
 
-
 /**
  * Decorador concreto que añade funcionalidad de encriptado a un mensaje.
  * Extiende la clase {@link MensajeDecorator} para modificar el comportamiento del método {@code enviar()}.
  */
-
-
-class EncriptadoDecorator extends MensajeDecorator {
+public class EncriptadoDecorator extends MensajeDecorator {
 
     /**
      * Constructor de la clase {@code EncriptadoDecorator}.
