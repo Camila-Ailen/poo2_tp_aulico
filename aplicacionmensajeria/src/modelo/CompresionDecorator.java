@@ -4,6 +4,7 @@ package modelo;
 public class CompresionDecorator extends MensajeDecorator {
 
     /** Constructor. */
+    
     public CompresionDecorator(Mensaje mensaje) {
         super(mensaje);
     }
