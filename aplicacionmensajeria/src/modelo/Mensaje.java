@@ -1,5 +1,5 @@
 package modelo;
 
-public class Mensaje {
-    
+public interface Mensaje {
+    public String enviar();
 }
